@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CocktailListActivity"
-    android:background="@color/background_color">
+    android:background="@color/background_color"
+    android:id="@+id/clListCocktails">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -29,43 +30,24 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        <androidx.appcompat.widget.LinearLayoutCompat
-            android:layout_width="wrap_content"
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/svSearchCocktails"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:background="@color/component_color">
+        </androidx.appcompat.widget.SearchView>
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/tiSearch"
-                android:layout_width="250dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:hint="@string/search_string"
-                tools:ignore="MissingConstraints"
-                android:textColorHint="@color/text_color"
-                app:boxStrokeColor="@color/text_color"
-                app:boxBackgroundColor="@color/component_color"
-                app:hintTextColor="@color/text_color">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCategories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"/>
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/tiSearcIn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/text_color"
-                    android:textSize="15sp"
-                    />
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/btnMasPeso"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="5dp"
-                android:src="@drawable/ic_glass_finder"
-                app:backgroundTint="@color/button_color"
-                app:tint="@color/black" />
-        </androidx.appcompat.widget.LinearLayoutCompat>
-
-
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCocktails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"/>
 
     </LinearLayout>
 

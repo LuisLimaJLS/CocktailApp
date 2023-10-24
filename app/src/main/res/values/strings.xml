@@ -9,4 +9,7 @@
     <!-- List CockatilApp -->
     <string name="welcome_string">Hola %1$s busca tu coctel favorito</string>
     <string name="search_string">Buscar</string>
+
+    <string name="item_categoy_string">Categoria: %1$s</string>
+    <string name="item_name_string">Nombre: %1$s</string>
 </resources>
