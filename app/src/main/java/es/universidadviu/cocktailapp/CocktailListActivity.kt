@@ -66,7 +66,7 @@ class CocktailListActivity : AppCompatActivity(), SearchView.OnQueryTextListener
     }
     //Incializacion de RecyclerViews
     private fun initUI(){
-        cocktailAdapter = CocktailAdapter(cocktailsInit)
+        cocktailAdapter = CocktailAdapter(this, cocktailsInit)
         rvCocktails.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
         rvCocktails.adapter=cocktailAdapter
         svSearchCocktails.setOnQueryTextListener(this)
