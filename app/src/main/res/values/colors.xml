@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--Colors for Cocktail App-->
+    <color name="background_color">#0D1B2A</color>
+    <color name="item_color">#1B263B</color>
+    <color name="component_color">#415A77</color>
+    <color name="button_color">#C9ADA7</color>
+    <color name="text_color">#E0E1DD</color>
+
+    <!--
+    <color name="background_color">#22223B</color>
+    <color name="item_color">#4A4E69</color>
+    <color name="component_color">#9A8C98</color>
+    <color name="button_color">#778DA9</color>
+    <color name="text_color">#F2E9E4</color>
+    -->
+    <!--
+        <color name="background_color">#03045E</color>
+        <color name="item_color">#0077B6</color>
+        <color name="component_color">#00B4D8</color>
+        <color name="button_color">#90E0EF</color>
+        <color name="text_color">#CAF0F8</color>
+        -->
+    </resources>
