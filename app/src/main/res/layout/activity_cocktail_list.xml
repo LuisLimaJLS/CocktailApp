@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/text_color"
             android:textSize="20sp"
-            tools:text="Hola Usuario busca tu coctel favorito"
+            tools:text="Hola Usuario encuentre tu coctel favorito"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
