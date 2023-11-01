@@ -5,9 +5,9 @@
 
     <!--Colors for Cocktail App-->
     <color name="background_color">#0D1B2A</color>
-    <color name="item_color">#9A8C98</color>
+    <color name="item_color">#062788</color>
     <color name="component_color">#567496</color>
-    <color name="button_color">#C9ADA7</color>
+    <color name="button_color">#5C96FB</color>
     <color name="text_color">#E0E1DD</color>
 
     <!--

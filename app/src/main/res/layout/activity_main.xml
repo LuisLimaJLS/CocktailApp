@@ -5,17 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_color"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
 
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:src="@drawable/ic_cocktail"
+        android:contentDescription="@string/description"
         app:layout_constraintBottom_toTopOf="@+id/cvStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/white" />
+
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cvStart"
@@ -70,7 +73,7 @@
 
             <Button
                 android:id="@+id/btnStart"
-                android:layout_width="match_parent"
+                android:layout_width="150dp"
                 android:layout_margin="16dp"
                 android:layout_height="wrap_content"
                 android:text="@string/start_string"
