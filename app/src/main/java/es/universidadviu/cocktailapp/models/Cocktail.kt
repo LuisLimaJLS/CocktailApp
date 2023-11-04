@@ -5,7 +5,7 @@ data class Cocktail(
     var strDrink:String,
     var strCategory:String,
     var strDrinkThumb:String,
-    val strAlcoholic: String
+    var strAlcoholic: String
 ) {
 
 }

@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
     private fun initComponents(){
         txtName = findViewById(R.id.txtNameIn)
         btnStart = findViewById(R.id.btnStart)
+
     }
 
     private fun initListener(){

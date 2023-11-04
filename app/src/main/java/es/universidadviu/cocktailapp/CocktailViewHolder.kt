@@ -17,7 +17,6 @@ class CocktailViewHolder(var mContext: Context, view: View) : RecyclerView.ViewH
     private val txtCategory: TextView =view.findViewById(R.id.idCategory)
     private val ivImage: ImageView =view.findViewById(R.id.ivStrDrinkThumb)
     private val divider: View = view.findViewById(R.id.divider)
-
     private val cvItem: CardView =view.findViewById(R.id.cvItem)
     fun render(cocktail: Cocktail){
         Picasso.get().load(cocktail.strDrinkThumb).into(ivImage)
