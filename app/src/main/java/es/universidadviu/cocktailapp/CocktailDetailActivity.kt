@@ -17,6 +17,7 @@ class CocktailDetailActivity : AppCompatActivity() {
         initListener()
 
         //llamada al api
+
         getCocktails("lookup.php?i=11007")
 
         val idDrink:String=intent.extras?.getString("idDrink").orEmpty()
