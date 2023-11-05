@@ -12,4 +12,15 @@
 
     <string name="item_categoy_string">Categoria: %1$s</string>
     <string name="item_name_string">Nombre: %1$s</string>
+
+    <!-- Detail CockatilApp -->
+    <string name="name_detail">Nombre:</string>
+    <string name="category_detail">Categoria:</string>
+    <string name="code_detail">Codigo:</string>
+    <string name="ingredients_detail">Ingredientes:</string>
+    <string name="ingredient1_detail">Ingrediente 1:</string>
+    <string name="ingredient2_detail">Ingrediente 2:</string>
+    <string name="ingredient3_detail">Ingrediente 3:</string>
+    <string name="instructions_detail">Instrucciones:</string>
+
 </resources>
