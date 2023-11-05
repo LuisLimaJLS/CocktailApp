@@ -11,7 +11,7 @@
         android:id="@+id/tvIdDrink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="12345"
+        tools:text="1234"
         android:textColor="@color/text_color"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
