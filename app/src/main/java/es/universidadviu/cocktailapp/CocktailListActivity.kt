@@ -86,6 +86,7 @@ class CocktailListActivity : AppCompatActivity(), SearchView.OnQueryTextListener
             val cocktailsResponse: CocktailResponse? = call.body()
             runOnUiThread {
                 if (call.isSuccessful) {
+
                     val cocktailsData = cocktailsResponse?.cocktails ?: emptyList()
                     cocktailsInit.clear()
                     cocktailsInit.addAll(cocktailsData)
