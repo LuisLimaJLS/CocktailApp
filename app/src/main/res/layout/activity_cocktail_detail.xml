@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".CocktailDetailActivity"
     android:background="@color/background_color">
-
     <TextView
         android:id="@+id/tvIdDrink"
         android:layout_width="59dp"
